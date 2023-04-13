@@ -27,7 +27,7 @@ export default defineConfig({
         ],
         nav: nav(),
         sidebar: {
-            "/guide": sidebarGuide(),
+            "/guide/install": sidebarInstall(),
         }
     }
 });
@@ -36,13 +36,19 @@ export default defineConfig({
 function nav()
 {
     return [
-        //
+        {text: '基础', link: '/guide/install/server-side', activeMatch: '/guide/install'},
     ];
 }
 
-function sidebarGuide()
-{
+function sidebarInstall() {
     return [
-        //
+        {
+            text: "",
+            // collapsible: true,
+            // collapsed: false,
+            items: [
+                {text: "服务端设置", link: "/guide/install/server-side"},
+            ]
+        },
     ];
 }
