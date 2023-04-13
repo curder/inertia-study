@@ -8,7 +8,7 @@ export default defineConfig({
     lastUpdated: true,
     themeConfig: {
         logo: "",
-        siteTitle: "代码片段",
+        siteTitle: "inertia 学习",
         outline: {
             label: "章节导航",
             level: 'deep',
