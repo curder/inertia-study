@@ -48,6 +48,7 @@ function sidebarInstall() {
             // collapsed: false,
             items: [
                 {text: "服务端设置", link: "/guide/install/server-side"},
+                {text: "客户端设置", link: "/guide/install/client-side"},
             ]
         },
     ];
